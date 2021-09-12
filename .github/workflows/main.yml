@@ -1,4 +1,4 @@
-name: Deploy My_Blog  #自动化的名称
+name: Deploy  #自动化的名称
 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
@@ -26,7 +26,7 @@ jobs:
        # 设置 node.js 环境
         uses: actions/setup-node@v1
         with:
-          node-version: '12'
+          node-version: 'v14.17.6'
           
       - name: Cache node modules
       # 设置包缓存目录，避免每次下载
@@ -42,8 +42,8 @@ jobs:
         run: |
           npm install hexo-cli -g
           npm install
+          npm update
            
-      
       # 生成静态文件
       - name: Build
         run: |
@@ -62,4 +62,4 @@ jobs:
           git config user.email "opensource-contrib@outlook.com"     #username改为你github的注册邮箱
           git add .
           git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-          git push --force --quiet "https://${{ secrets.ACCESS_TOKEN }}@$GITHUB_REPO" master:master
+          git push --force --quiet "https://${{ secrets.ACCESS_TOKEN }}@$GITHUB_REPO" main:main
