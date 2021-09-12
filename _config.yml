@@ -99,6 +99,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: materialize
+exclude_generators:
+  - index
 
 stylus:
   compress: true
