@@ -1,6 +1,6 @@
 # TeamBlogList
 
->  This repo is serving open source-contrib.github.io repo. When pushing occurs in main branch, the build and delopy action will run.
+>  This repo is serving open [source-contrib.github.io](https://github.com/opensource-contrib/opensource-contrib.github.io) repo. When pushing occurs in main branch, the build and delopy action will run.
 
 ## Contribute Steps
 
