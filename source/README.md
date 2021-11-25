@@ -1,3 +1,4 @@
+[**English**](./README.md) | [中文](./README_CN.md)
 # Superego-CodeEngineer.github.io
 
 > We are a team keen to make open source contributions. This website records our journey. Feel free to join us.
@@ -15,4 +16,4 @@ source community, you can go to [TeamBlogList](https://github.com/Superego-CodeE
 
 ## Contact
 
-E-mail:  [opensource-contrib@outlook.com](mailto:cheung.zhy.csu@gmail.com)
+E-mail:  [opensource-contrib@outlook.com](mailto:opensource-contrib@gmail.com)

@@ -1,3 +1,4 @@
+[English](./README.md) | [**中文**](./README_CN.md)
 # Superego-CodeEngineer.github.io
 
 > 团队致力于创造开源贡献与协作. 此博客用于记录团队里程碑及进展情况. 欢迎各位小伙伴加入.
@@ -14,4 +15,4 @@
 
 ## 联系方式
 
-E-mail:  [opensource-contrib@outlook.com](mailto:cheung.zhy.csu@gmail.com)
+E-mail:  [opensource-contrib@outlook.com](mailto:opensource-contrib@gmail.com)
