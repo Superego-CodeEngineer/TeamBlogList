@@ -13,7 +13,7 @@ git clone https://github.com/opensource-contrib/TeamBlogList.git
 ### create new branch
 
 ```
-git branch -b your branch
+git checkout -b <feature/your_branch>
 ```
 
 ### switch directory
