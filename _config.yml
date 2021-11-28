@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: OpenSource-Contrib
+title: Superego-CodeEngineer
 subtitle: ''
 description: ''
 keywords:
-author: OpenSource-Contrib
+author: Superego-CodeEngineer
 language: zh
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://opensource-contrib.github.io/
+url: https://superego-codeengineer.github.io/
 root: /
 permalink: blog/:title/
 permalink_defaults:
@@ -29,7 +29,12 @@ archive_dir: blog
 category_dir: blog/categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: README.md, README_CN.md, Contributions.md
+
+skip_render:
+skip_render: 
+    - README.md
+    - README_CN.md
+    - Contributions.md
 
 # Writing
 new_post_name: :year/:month-:day-:title.md # File name of new posts
@@ -96,8 +101,6 @@ exclude:
 ignore:
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
 theme: materialize
 exclude_generators:
   - index
@@ -110,8 +113,7 @@ menu:
   Blog: /blog
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/opensource-contrib/opensource-contrib.github.io.git
+  repo: https://github.com/Superego-CodeEngineer/Superego-CodeEngineer.github.io
   branch: main
