@@ -16,4 +16,4 @@ source community, you can go to [TeamBlogList](https://github.com/Superego-CodeE
 
 ## Contact
 
-E-mail:  [opensource-contrib@outlook.com](mailto:opensource-contrib@gmail.com)
+E-mail:  [cheung.zhy.csu@gmail.com](mailto:cheung.zhy.csu@gmail.com)
